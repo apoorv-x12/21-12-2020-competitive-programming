@@ -1,1 +1,39 @@
 
+public class InsertionSort 
+{
+
+	public static void main(String[] args) 
+	{
+		int[]a= {2,4,2,5,3,5};//array
+		InsertionSort.insertionSort(a,a.length);//pass a and its length to function
+		System.out.println("__________");
+		for(int i=0;i<a.length;i++)
+		System.out.print(a[i]+" ");//print sorted a
+
+	}
+	
+	public static void insertionSort(int [] a,int n) // 1 4 2 5 6 for ex
+	{  int k;//to store a[i]
+		// up till 0 th index already sorted
+		for(int i=1;i<n;i++) {// we go from 4 to 6 for 1 st iter ,2 to 5 for 2 nd iter
+			k=a[i];// k is 4 for 1 st iter of i,k is 2 for 2nd iter
+			int j=i-1;//0 for 1 st iter of i,1 for 2nd iter of i
+			while(j>=0) { // we in 1 iteration go from 0 to 0,in 2nd from 4 to 1
+				if(a[j]>k)//1>4 false,4>2 true
+					a[j+1]=a[j];// in 2nd i iter (1 st iter of j-> it become 1 4 4 5 6 )
+				else
+					break;// we break out of inner loop
+					j--;
+			}
+			// here after 1 iter. of inner loop which mean at j index we found
+			// something whose right k should come coz we are shifting elements to right
+			a[j+1]=k;
+			
+			for(int p=0;p<a.length;p++)
+				System.out.print(a[p]+" ");//print partial sorted a
+			System.out.println("\n");
+		}
+		
+	}
+
+}
