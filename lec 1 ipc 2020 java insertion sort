@@ -1,6 +1,7 @@
 
 public class InsertionSort 
-{
+{ //time->O(n^2)
+//space->O(1) we don't create any other array worked with a only hence constant space
 
 	public static void main(String[] args) 
 	{
@@ -31,7 +32,7 @@ public class InsertionSort
 			
 			for(int p=0;p<a.length;p++)
 				System.out.print(a[p]+" ");//print partial sorted a
-			System.out.println("\n");
+			System.out.println();// ln means already it will be a line break
 		}
 		
 	}
