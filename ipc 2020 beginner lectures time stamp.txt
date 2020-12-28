@@ -1,0 +1,58 @@
+PENDINg :First do lec 8 after first 46 min!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+lec 1 of playlist
+7:30-10:30
+11:30-12
+13:30-15
+18-18:30
+20:30-27
+27:20-27:40
+28:30-31:30(*)
+36-39(*)
+41-41:30(*)
+42-43:30(*)
+47:30-50:30
+NOTE: in one of mobile note apps i have comments for timestamps
+NOTE: basically coding insertion sort and knowing its complexity is above 7:30-50:30 main learning ,* marked ,if u can do it aka code and know compl. u can skip others if time is constrained!!
+51-58:30
+Note: lec 1 ye not complete!!!!!!!!!!!!!
+
+lec 4 of playlist 
+Mastering C++ STL || Indian Programming Camp 2020 - Beginner Track || Sanket Singh
+4:30-5(overview of this lec)
+8:30-9:30(intro of STL)
+10:30-11(algo and data structures which are already implemented in stl)
+11:30-13(A problem to understand vector(its statement))(*imp)
+13-16(solution of above problem/or what needs to output with taking specific input value for N ,Q/specific test case etc)(****very imp)
+NOTE: corresponding to 13-16 pics lec 4 pic 4 and lec 4 pic 5 are there but these two contain start and end array state only not in between after each Q!!!
+16:30-17(constrains ie range for values of Q and N etc and issue with this approach: for loop from L to R which is we can't run loop billion times !!!! if we do we get tle(time limit exceed))(*imp)
+18:30-19:30(Brute force ie loop from l to r has O(Q.n)(of overall loops while and for inside it) hence tle)(** imp)
+19:30-22(idea-store/remember what all Queries are first then create ans at end!-Difference vector /array trick)(** v. imp)
+22-27(DIFFERENCE VECTOR TRICK: idea is cumulative sum cause [2,5] is contained in [1,6]  so value at 2 for ex shoud be incremented twice and there is nullified area we reprsent all this by markers,something like that i guess )(*** v. imp)
+27:30-31(above algo explained again also called prefix sum)(**imp)
+note:lec 4 yet not complete!!!!!!!!!
+
+
+lec 8 of playlist
+11:30-12
+12:30-13
+14:30-15(*)(stack and heap memo)
+16-16:30(*)(imp ex of stack memo)
+22-23(*)(recursion process steps,order he wrote wrong corrected in code)
+24-25(*)(equivalence of mathematica induction and recursion)
+26-27(*)(n factorial using recursion)
+28:30-29:30(*)(program of n factorial recursion)
+31-36(**)(what actually happens in stack during recursion call)
+36:30-37
+37:30-38(combining step 2 and 3 in fact function)
+41-43(*)(recursion tree and time space complexity)
+45-45:30(*)(fibonacci problem)
+
+lec 10
+8:30-9(*)(overview)
+Note:continue after first  10 min!!!!!!!!!!!
+
+
+
+
+
